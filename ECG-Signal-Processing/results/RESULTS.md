@@ -1,7 +1,7 @@
 📊 Results - ECG Signal Processing
 🔹 Raw ECG Signal
 
-![Raw ECG](raw.png)
+![Raw ECG](raw_ecg.png)
 🔍 Analysis
 
 * The raw ECG signal contains baseline drift, visible as a slow variation in the signal level.
@@ -11,18 +11,18 @@
 
 🔹 Filtered ECG Signal
 
-![Filtered ECG](filtered.png)
+![Filtered ECG](ecg_signal_filtered.png)
 
 🔍 Analysis
 
 * A high-pass filter (0.5 Hz) successfully removes baseline wandering.
-* A **low-pass Butterworth filter (40 Hz) eliminates high-frequency noise.
+* A low-pass Butterworth filter (40 Hz) eliminates high-frequency noise.
 * The signal is now centered around zero, improving interpretability.
 * The morphology of ECG components (P, QRS, T) is preserved without distortion.
 
 🔹 R-Peak Detection
 
-![R Peaks](peaks.png)
+![R Peaks](R_peak_detection.png)
 
 🔍 Analysis
 
